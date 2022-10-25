@@ -17,7 +17,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <ubsi.version>2.3.1</ubsi.version>
+        <ubsi.version>2.3.2</ubsi.version>
     </properties>
 
     <name>ubsi.demo.hello</name>
@@ -82,7 +82,7 @@
 
 对于一个完整的UBSI微服务开发项目，需要在pom.xml中配置下面的内容：
 
-- 添加ubsi-core核心包的依赖，目前最新的版本是2.3.1
+- 添加ubsi-core核心包的依赖，目前最新的版本是2.3.2
 - 添加junit的依赖，这个用来进行服务接口的单元测试
 - 设置ubsi的maven插件，用来部署或运行微服务
 - 如果需要将微服务的JAR包发布到maven私有仓库，还应该设置mvn deploy时的maven仓库地址（仓库的登录账号配置在maven的settings.xml中）

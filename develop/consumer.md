@@ -19,20 +19,20 @@
 - rewin.ubsi.cli.Request - 接口访问工具
 
   ```
-  java -cp ubsi-core-ce-2.3.1-jar-with-dependencies.jar rewin.ubsi.cli.Request -h localhost -p 7112 ubsi.demo.hello hello requester
+  java -cp ubsi-core-ce-2.3.2-jar-with-dependencies.jar rewin.ubsi.cli.Request -h localhost -p 7112 ubsi.demo.hello hello requester
   ```
 
 - rewin.ubsi.cli.Console - 客户端交互工具
 
   ```
-  > java -cp ubsi-core-ce-2.3.1-jar-with-dependencies.jar rewin.ubsi.cli.Console
+  > java -cp ubsi-core-ce-2.3.2-jar-with-dependencies.jar rewin.ubsi.cli.Console
   
   UBSI Consumer Console Utility, press ENTER for help
   
-  localhost#7112> service
+  localhost#7112> modules
   
-  [1] "": 2.3.0, rewin.ubsi.container.Controller, UBSI微服务容器控制器
-  [1] ubsi.demo.hello: 1.0.0, ubsi.demo.hello.Service, UBSI微服务示例
+  [1]		"": [2.3.2-SNAPSHOT] rewin.ubsi.container.Controller, UBSI微服务容器控制器
+  [1]		ubsi.demo.hello: [1.0.0] ubsi.demo.hello.Service, UBSI微服务示例
   
   localhost#7112> request ubsi.demo.hello hello requester
   
@@ -103,7 +103,7 @@ public class Test {
 
 执行这个测试：
 
-`java -cp ubsi-core-ce-2.3.1-jar-with-dependencies.jar;target\classes ubsi.demo.hello.Test`
+`java -cp ubsi-core-ce-2.3.2-jar-with-dependencies.jar;target\classes ubsi.demo.hello.Test`
 
 会得到下面的返回结果：
 

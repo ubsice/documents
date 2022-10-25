@@ -10,7 +10,7 @@
 
 - 启动一个独立的UBSI Container微服务容器
 
-  `java -jar ubsi-core-ce-2.3.1-jar-with-dependencies.jar`
+  `java -jar ubsi-core-ce-2.3.2-jar-with-dependencies.jar`
 
   > JAR包下载可以访问 https://github.com/open-ubsi/ubsi-core
 

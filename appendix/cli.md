@@ -16,7 +16,7 @@ UBSI核心包除了服务容器及Consumer组件之外，还提供了几个常�
 通过命令行发送一个UBSI服务请求：
 
 ```
-> java -cp rewin.ubsi.core-2.3.0-jar-with-dependencies.jar rewin.ubsi.cli.Request
+> java -cp ubsi-core-ce-2.3.2-jar-with-dependencies.jar rewin.ubsi.cli.Request
 
 Usage: Request [-h host] [-p port] [-f req-file] [-router] [-log] [-xml] service entry ...
 
@@ -61,7 +61,7 @@ req-file format(json):
 命令行交互工具：
 
 ```
-> java -cp rewin.ubsi.core-2.3.0-jar-with-dependencies.jar rewin.ubsi.cli.Console
+> java -cp ubsi-core-ce-2.3.2-jar-with-dependencies.jar rewin.ubsi.cli.Console
 
 UBSI Consumer Console Utility, press ENTER for help
 
@@ -103,7 +103,7 @@ localhost#7112>
 通过命令行执行一个JavaScript脚本：
 
 ```
-> java -cp rewin.ubsi.core-2.3.0-jar-with-dependencies.jar rewin.ubsi.cli.Script
+> java -cp ubsi-core-ce-2.3.2-jar-with-dependencies.jar rewin.ubsi.cli.Script
 
 Error: JavaScript file "script.js" not found!
 
@@ -147,7 +147,7 @@ Api of '$' in JavaScript:
 这是一个简单的性能测试工具，执行方式如下：
 
 ```
-java -cp rewin.ubsi.core-2.3.0-jar-with-dependencies.jar rewin.ubsi.cli.Stress req.json 1000
+java -cp ubsi-core-ce-2.3.2-jar-with-dependencies.jar rewin.ubsi.cli.Stress req.json 1000
 ```
 
 参数req.json是构造服务请求的数据文件，内容如下：
@@ -239,7 +239,7 @@ java -cp rewin.ubsi.core-2.3.0-jar-with-dependencies.jar rewin.ubsi.cli.Stress r
 OK！现在所有的准备工作完成，重新执行Stress测试工具，可以得到如下的结果：
 
 ```
-java -cp rewin.ubsi.core-2.3.0-jar-with-dependencies.jar rewin.ubsi.cli.Stress req.json 1000
+java -cp ubsi-core-ce-2.3.2-jar-with-dependencies.jar rewin.ubsi.cli.Stress req.json 1000
 
 my.samples.demo:getModels(): {
   "my.service.samples.DemoService$RuntimeInfo: 运行信息": {

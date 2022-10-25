@@ -27,7 +27,7 @@
 
 然后执行Request命令：
 
-`java -cp ubsi-core-ce-2.3.1-jar-with-dependencies.jar;ubsi-filter-demo-1.0.jar rewin.ubsi.cli.Request ubsi.demo.hello hello 测试员`
+`java -cp ubsi-core-ce-2.3.2-jar-with-dependencies.jar;ubsi-filter-demo-1.0.jar rewin.ubsi.cli.Request ubsi.demo.hello hello 测试员`
 
 会得到如下输出结果：
 
