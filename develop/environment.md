@@ -8,13 +8,11 @@ UBSI微服务需要的开发环境：
 
   UBSI目前还不支持其他语言来开发微服务，如果有异构系统需要访问UBSI的微服务，可以通过[UBSI Gateway网关](../gateway/readme.md) 接入。
 
-  > Java 8应该使用8u291之后的版本
-
 - Maven
 
   常用的Java集成开发工具（如IntelliJ）都会带有maven工具，如果没有也可以单独下载并安装；
 
-  开发UBSI微服务必须依赖ubsi-core核心包，目前这个包还未发布到maven的中央仓库，而是单独托管在github-packages中 ( https://github.com/orgs/open-ubsi/packages )，所以需要在maven环境的settings.xml中添加如下配置：
+  开发UBSI微服务必须依赖ubsi-core核心包，目前这个包还未发布到maven的中央仓库，而是单独托管在github-packages中 ( https://github.com/orgs/ubsice/packages )，所以需要在maven环境的settings.xml中添加如下配置：
 
   ```xml
   <servers>
@@ -40,7 +38,7 @@ UBSI微服务需要的开发环境：
         
         <repository>
           <id>github</id>
-          <url>https://maven.pkg.github.com/open-ubsi/release</url>
+          <url>https://maven.pkg.github.com/ubsice/release</url>
           <!-- 这是ubsi@github-packages的maven-repository-url -->
         </repository>
       </repositories>

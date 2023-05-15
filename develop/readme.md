@@ -20,5 +20,5 @@
 
 完整的示例代码可以访问：
 
-https://github.com/open-ubsi/demo.hello
+https://github.com/ubsice/demo.hello
 

@@ -12,7 +12,7 @@
 
   `java -jar ubsi-core-ce-2.3.2-jar-with-dependencies.jar`
 
-  > JAR包下载可以访问 https://github.com/open-ubsi/ubsi-core
+  > JAR包下载可以访问 https://github.com/ubsice/ubsi-core
 
   容器启动后默认的监听地址为本机（localhost）的7112端口
 
